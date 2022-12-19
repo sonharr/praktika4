@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	int b = 3, c = 3;
-	int res = 0;
+	long float res = 0;
 	auto start = std::chrono::steady_clock::now();
 	for (int i = 0; i <= 10000000; i++)
 		res += (b * 2 + c - i);
